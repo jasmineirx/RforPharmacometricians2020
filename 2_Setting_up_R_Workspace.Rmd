@@ -1,0 +1,36 @@
+---
+title: "2) Setting up your R work space"
+author: "Jasmine Hughes"
+date: "9/12/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r setup2, eval=FALSE}
+install.packages("ggplot2")
+install.packages("dplyr")
+```
+
+# RStudio
+
+* RStudio is an integrated development environment (IDE)
+* Widely used way of writing R code and interacting with data.
+
+Let's take a little tour:
+
+1. Source: R code files:
+    * ".R" files: scripts
+    * ".Rmd" files: "R Markdown", interactive notebooks that can be saved as latex/pdf or html documents. Handy for exploring data, making graphs, and keeping track of why you are making particular decisions.
+  
+2. Console
+    * Another way to code interactively!
+    * Also has a terminal (the same as terminal/command line)
+
+3. Files/Plots/Help
+    * Useful references for while doing data analysis and writing code
+
+4. Environment
+    * variables that you've saved that are available for you to use.
